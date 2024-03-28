@@ -1,5 +1,5 @@
 import React from 'react'
-import { subscription, willGet } from '../../data';
+import { subscription, willGet } from '../../Data';
 import PriceCard from '../../component/Cards/PriceCard'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
