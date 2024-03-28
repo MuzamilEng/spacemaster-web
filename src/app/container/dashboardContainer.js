@@ -1,6 +1,6 @@
 import React from 'react';
-import ClientDashboard from '../component/Dashboard';
-import Searchbar from '../component/Searchbar';
+import ClientDashboard from '../Component/Dashboard';
+import Searchbar from '../Component/Searchbar';
 
 const DashboardContainer = ({ children }) => {
   return (

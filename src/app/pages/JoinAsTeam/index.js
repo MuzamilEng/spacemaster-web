@@ -3,7 +3,7 @@ import { joinTeamForm } from '../../Data';
 import Container from '../../container';
 import { useForm, Controller } from 'react-hook-form'
 import { useState } from 'react'
-import Hero from '../../component/Common/Hero';
+import Hero from '../../Component/Common/Hero';
 import { Icon } from '@iconify/react';
 
 const JoinAsTeam = () => {

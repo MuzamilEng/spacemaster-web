@@ -2,14 +2,14 @@ import React from 'react'
 import Container from '../../container'
 import { Icon } from '@iconify/react'
 import { approach, expertise, helpCards, howitworks, partners, profiles, subscription, toggleInfo, whyChoose } from '../../Data'
-import HelpCard from '../../component/Cards/HelpCard'
-import ApproachCard from '../../component/Cards/ApproachCard'
-import PriceCard from '../../component/Cards/PriceCard'
-import ProfileCard from '../../component/Cards/ProfileCard'
+import HelpCard from '../../Component/Cards/HelpCard'
+import ApproachCard from '../../Component/Cards/ApproachCard'
+import PriceCard from '../../Component/Cards/PriceCard'
+import ProfileCard from '../../Component/Cards/ProfileCard'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Questions from '../../component/Queries/Questions'
+import Questions from '../../Component/Queries/Questions'
 import { Link } from 'react-router-dom'
 
 const Home = () => {

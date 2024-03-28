@@ -3,8 +3,8 @@ import { emailForm, toggleInfo } from '../../Data';
 import Container from '../../container';
 import { useForm, Controller } from 'react-hook-form'
 import { useState } from 'react'
-import Hero from '../../component/Common/Hero';
-import Questions from '../../component/Queries/Questions';
+import Hero from '../../Component/Common/Hero';
+import Questions from '../../Component/Queries/Questions';
 
 const Contact = () => {
   const [emailDetails, setEmailDetails] = useState({name: '', phoneNumber: '', email: '', message: ''})

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Topbar from '../../component/Common/Topbar'
-import Navbar from '../../component/Common/Navbar'
+import Topbar from '../../Component/Common/Topbar'
+import Navbar from '../../Component/Common/Navbar'
 import { Icon } from '@iconify/react'
 import { Link } from 'react-router-dom'
 import method from './method'

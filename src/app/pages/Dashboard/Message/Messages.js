@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import DashboardContainer from '../../../container/dashboardContainer';
 import { Icon } from '@iconify/react';
 import { dummyChat } from '../../../Data';
-import { Chat } from '../../../component/Chat/Chat';
+import { Chat } from '../../../Component/Chat/Chat';
 
 const Messages = () => {
   const active = ['/img/team1.png', '/img/team_2.png', '/img/team3.png', '/img/team4.png', '/img/team5.png'];

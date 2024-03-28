@@ -1,7 +1,7 @@
 import React from 'react'
 import DashboardContainer from '../../container/dashboardContainer'
 import { projectSummary, yourTeam } from '../../Data'
-import ActiveSubscription from '../../component/Cards/ActiveSubscription'
+import ActiveSubscription from '../../Component/Cards/ActiveSubscription'
 
 const Dashboard = () => {
   const info = ['Unlimited members', 'Unlimited feedback ', 'Weekly team Feedback Friday  ', 'Custom Kudos +9 illustration ', 'Team feedback history (30 items)']

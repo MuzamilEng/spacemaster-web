@@ -1,7 +1,7 @@
 import React from 'react'
-import Topbar from '../component/Common/Topbar'
-import Navbar from '../component/Common/Navbar'
-import Footer from '../component/Common/Footer'
+import Topbar from '../Component/Common/Topbar'
+import Navbar from '../Component/Common/Navbar'
+import Footer from '../Component/Common/Footer'
 
 const Container = ({ children }) => {
   return (

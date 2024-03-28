@@ -1,8 +1,8 @@
 import React from 'react'
 import Container from '../../container'
-import Hero from '../../component/Common/Hero'
+import Hero from '../../Component/Common/Hero'
 import { about_works, benifits, getStarted, hiringProcess14, hiringProcess58 } from '../../Data'
-import ApproachCard from '../../component/Cards/ApproachCard'
+import ApproachCard from '../../Component/Cards/ApproachCard'
 
 const HowItWorks = () => {
   return (

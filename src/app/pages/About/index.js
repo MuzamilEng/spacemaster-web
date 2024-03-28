@@ -1,9 +1,9 @@
 import React from 'react'
 import Container from '../../container'
-import Hero from '../../component/Common/Hero'
+import Hero from '../../Component/Common/Hero'
 import { Languages, achievements, ratings, solveproblem } from '../../Data'
-import HelpCard from '../../component/Cards/HelpCard'
-import AchievementCard from '../../component/Cards/AchievementCard'
+import HelpCard from '../../Component/Cards/HelpCard'
+import AchievementCard from '../../Component/Cards/AchievementCard'
 
 const About = () => {
   return (
