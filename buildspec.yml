@@ -1,0 +1,32 @@
+version: 0.2
+os: linux
+phases:
+  install:
+    runtime-version:
+      nodejs: 16 
+    commands:
+      - echo Installing source NPM dependencies
+      - npm cache clean --force
+      - npm install --force
+      - echo Installing successfully
+  pre_build:
+    commands:
+      - echo Successfully Pre-Build
+      - echo "REACT_APP_API_PORT=5003" > .env
+      - ls -a
+      - echo .env
+  build:
+    commands:
+      # Run any build commands needed
+      - ls
+      - cat .env
+      - npm run build
+      - rm -rf node_modules
+      - rm -rf build
+      - rm -rf package-lock.json
+      - echo Successfully Build
+artifacts:
+  files:
+    - '**/*'
+  name: build-artifact-name
+  discard-paths: no
