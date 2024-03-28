@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '../../container'
 import { Icon } from '@iconify/react'
-import { approach, expertise, helpCards, howitworks, partners, profiles, subscription, toggleInfo, whyChoose } from '../../data'
+import { approach, expertise, helpCards, howitworks, partners, profiles, subscription, toggleInfo, whyChoose } from '../../Data'
 import HelpCard from '../../component/Cards/HelpCard'
 import ApproachCard from '../../component/Cards/ApproachCard'
 import PriceCard from '../../component/Cards/PriceCard'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { joinTeamForm } from '../../data';
+import { joinTeamForm } from '../../Data';
 import Container from '../../container';
 import { useForm, Controller } from 'react-hook-form'
 import { useState } from 'react'

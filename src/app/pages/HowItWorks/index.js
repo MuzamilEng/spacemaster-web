@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '../../container'
 import Hero from '../../component/Common/Hero'
-import { about_works, benifits, getStarted, hiringProcess14, hiringProcess58 } from '../../data'
+import { about_works, benifits, getStarted, hiringProcess14, hiringProcess58 } from '../../Data'
 import ApproachCard from '../../component/Cards/ApproachCard'
 
 const HowItWorks = () => {

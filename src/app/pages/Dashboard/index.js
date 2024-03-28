@@ -1,6 +1,6 @@
 import React from 'react'
 import DashboardContainer from '../../container/dashboardContainer'
-import { projectSummary, yourTeam } from '../../data'
+import { projectSummary, yourTeam } from '../../Data'
 import ActiveSubscription from '../../component/Cards/ActiveSubscription'
 
 const Dashboard = () => {

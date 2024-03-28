@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import DashboardContainer from '../../../container/dashboardContainer';
 import { Icon } from '@iconify/react';
-import { dummyChat } from '../../../data';
+import { dummyChat } from '../../../Data';
 import { Chat } from '../../../component/Chat/Chat';
 
 const Messages = () => {

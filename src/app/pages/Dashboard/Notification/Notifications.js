@@ -1,6 +1,6 @@
 import React from 'react'
 import DashboardContainer from '../../../container/dashboardContainer'
-import { notifications } from '../../../data'
+import { notifications } from '../../../Data'
 
 const Notifications = () => {
   return (

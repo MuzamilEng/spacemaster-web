@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '../../container'
 import Hero from '../../component/Common/Hero'
-import { Languages, achievements, ratings, solveproblem } from '../../data'
+import { Languages, achievements, ratings, solveproblem } from '../../Data'
 import HelpCard from '../../component/Cards/HelpCard'
 import AchievementCard from '../../component/Cards/AchievementCard'
 

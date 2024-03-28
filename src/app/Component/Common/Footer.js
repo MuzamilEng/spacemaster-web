@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { space_footer } from '../../data'
+import { space_footer } from '../../Data'
 
 const Footer = () => {
   return (

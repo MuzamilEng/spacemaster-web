@@ -1,7 +1,7 @@
 import React from 'react'
 import DashboardContainer from '../../../container/dashboardContainer'
 import { Icon } from '@iconify/react'
-import { reciepts } from '../../../data'
+import { reciepts } from '../../../Data'
 
 const Status = ({statas, statas_color, price, date, billing_no}) => {
   return(

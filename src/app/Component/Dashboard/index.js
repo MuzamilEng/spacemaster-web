@@ -1,5 +1,5 @@
 import React from 'react'
-import { dashboard } from '../../data'
+import { dashboard } from '../../Data'
 import { Icon } from '@iconify/react'
 import { Link } from 'react-router-dom'
 

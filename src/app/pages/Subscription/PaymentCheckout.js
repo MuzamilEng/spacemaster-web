@@ -2,7 +2,7 @@ import React from 'react'
 import Topbar from '../../component/Common/Topbar';
 import Navbar from '../../component/Common/Navbar';
 import { Icon } from '@iconify/react';
-import { priceDetails } from '../../data';
+import { priceDetails } from '../../Data';
 
 const PaymentCheckout = () => {
   return (

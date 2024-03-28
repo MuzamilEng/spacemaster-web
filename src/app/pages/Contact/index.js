@@ -1,5 +1,5 @@
 import React from 'react'
-import { emailForm, toggleInfo } from '../../data';
+import { emailForm, toggleInfo } from '../../Data';
 import Container from '../../container';
 import { useForm, Controller } from 'react-hook-form'
 import { useState } from 'react'
